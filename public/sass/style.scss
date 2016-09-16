@@ -1,0 +1,36 @@
+@import "compass";
+@import "compass/reset";
+@import "grids";
+@import "compass/support";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography";
+@import "compass/utilities";
+@import "layout";
+@import "sections/header";
+@import "sections/main";
+@import "sections/footer";
+
+
+
+* { box-sizing: border-box; }
+html { box-sizing: border-box; }
+
+.content{
+  @include container();
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+.mate-s{
+  text-align: center;
+  color: #da1a21;
+}
+
+.item{
+  @include container(12 no-gutters fluid);
+}

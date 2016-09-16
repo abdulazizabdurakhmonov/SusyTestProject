@@ -1,0 +1,507 @@
+/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/sections/_header.scss */
+#header {
+  background: white;
+  width: 100%;
+  height: 65px;
+  z-index: 999;
+}
+/* line 9, ../sass/sections/_header.scss */
+#header .content {
+  z-index: 100;
+}
+/* line 12, ../sass/sections/_header.scss */
+#header .content #text-logo {
+  margin-top: 20px;
+  height: 140px;
+  width: 15.66265%;
+  float: left;
+  margin-right: 1.20482%;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 18, ../sass/sections/_header.scss */
+#header .content #text-logo img {
+  max-width: 100%;
+  width: 100%;
+}
+/* line 23, ../sass/sections/_header.scss */
+#header .content #header-nav {
+  height: 65px;
+  width: 57.83133%;
+  float: left;
+  margin-right: 1.20482%;
+  overflow: hidden;
+  *zoom: 1;
+  background: #ffffff;
+  text-align: center;
+}
+/* line 29, ../sass/sections/_header.scss */
+#header .content #header-nav .nav-links {
+  padding-top: 27px;
+}
+/* line 31, ../sass/sections/_header.scss */
+#header .content #header-nav .nav-links li {
+  text-align: center;
+  height: 40px;
+  background: transparent;
+  width: 18.84058%;
+  float: left;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #header-nav .nav-links li:nth-child(5n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #header-nav .nav-links li:nth-child(5n + 2) {
+  margin-left: 20.28986%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #header-nav .nav-links li:nth-child(5n + 3) {
+  margin-left: 40.57971%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #header-nav .nav-links li:nth-child(5n + 4) {
+  margin-left: 60.86957%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #header-nav .nav-links li:nth-child(5n + 5) {
+  margin-left: 81.15942%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 36, ../sass/sections/_header.scss */
+#header .content #header-nav .nav-links li a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #d2d4d9;
+  text-decoration: none;
+  background: transparent;
+}
+/* line 44, ../sass/sections/_header.scss */
+#header .content #header-nav .nav-links a:hover {
+  color: black;
+  font-weight: 500;
+}
+/* line 50, ../sass/sections/_header.scss */
+#header .content #media {
+  height: 65px;
+  background: white;
+  width: 15.66265%;
+  float: left;
+  margin-right: 1.20482%;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 55, ../sass/sections/_header.scss */
+#header .content #media .media-links {
+  padding-top: 27px;
+}
+/* line 57, ../sass/sections/_header.scss */
+#header .content #media .media-links li {
+  border-radius: 100%;
+  background: yellow;
+  height: 32px;
+  width: 24.09639%;
+  float: left;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #media .media-links li:nth-child(4n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #media .media-links li:nth-child(4n + 2) {
+  margin-left: 25.3012%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #media .media-links li:nth-child(4n + 3) {
+  margin-left: 50.60241%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#header .content #media .media-links li:nth-child(4n + 4) {
+  margin-left: 75.90361%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 62, ../sass/sections/_header.scss */
+#header .content #media .media-links li :first-child {
+  background: url("../../../images/insta-mini.png");
+}
+/* line 63, ../sass/sections/_header.scss */
+#header .content #media .media-links li :nth-child(2) {
+  background: url("../../../images/twit-mini.png");
+}
+/* line 64, ../sass/sections/_header.scss */
+#header .content #media .media-links li :nth-child(3) {
+  background: url("../../../images/y-tube-mini.png");
+}
+/* line 65, ../sass/sections/_header.scss */
+#header .content #media .media-links li :last-child {
+  background: url("../../../images/insta-mini.png");
+}
+/* line 66, ../sass/sections/_header.scss */
+#header .content #media .media-links li a {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 2, ../sass/sections/_main.scss */
+#main #about {
+  height: 595px;
+  background: #1e4155;
+}
+/* line 5, ../sass/sections/_main.scss */
+#main #about .content {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 7, ../sass/sections/_main.scss */
+#main #about .content .page-title {
+  background: aqua;
+}
+/* line 10, ../sass/sections/_main.scss */
+#main #about .content h1 {
+  width: 18.07229%;
+  float: left;
+  margin-left: 40.90361%;
+  margin-right: -100%;
+  margin-top: 130px;
+  height: 52px;
+  font-size: large;
+  background: yellow;
+}
+/* line 17, ../sass/sections/_main.scss */
+#main #about .content p {
+  width: 49.39759%;
+  float: left;
+  margin-left: 25.3012%;
+  margin-right: -100%;
+  background: navy;
+  margin-top: 200px;
+}
+/* line 22, ../sass/sections/_main.scss */
+#main #about .content .button-wrapper {
+  width: 16.86747%;
+  float: left;
+  margin-left: 42.16867%;
+  margin-right: -100%;
+  background: #fff;
+  height: 36px;
+  border-radius: 3%;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 310px;
+}
+/* line 45, ../sass/sections/_main.scss */
+#main #slider {
+  background-color: #0e1f4a;
+  height: 445px;
+}
+/* line 49, ../sass/sections/_main.scss */
+#main #slider .content h1 {
+  font-weight: lighter;
+  width: 57.83133%;
+  float: left;
+  margin-left: 8.43373%;
+  margin-right: -100%;
+  margin-top: 45px;
+  color: #f2cd35;
+  text-align: left;
+  font-size: 25px;
+}
+/* line 56, ../sass/sections/_main.scss */
+#main #slider .content h1 .bold {
+  font-weight: 800;
+  color: #f2cd35;
+}
+/* line 61, ../sass/sections/_main.scss */
+#main #slider .content .information-list {
+  width: 83.13253%;
+  float: left;
+  margin-left: 8.43373%;
+  margin-right: -100%;
+  margin-top: 100px;
+}
+/* line 64, ../sass/sections/_main.scss */
+#main #slider .content .information-list li {
+  width: 49.27536%;
+  float: left;
+  margin: 1.20482%;
+  background: #0e1f4a;
+  height: 85px;
+}
+/* line 65, ../sass/sections/_main.scss */
+#main #slider .content .information-list li.absolute {
+  position: relative;
+}
+/* line 66, ../sass/sections/_main.scss */
+#main #slider .content .information-list li.absolute div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 90px;
+  width: 85px;
+}
+/* line 72, ../sass/sections/_main.scss */
+#main #slider .content .information-list li.absolute div img {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+/* line 78, ../sass/sections/_main.scss */
+#main #slider .content .information-list li.absolute p {
+  margin-left: 110px;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#main #slider .content .information-list li:nth-child(2n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#main #slider .content .information-list li:nth-child(2n + 2) {
+  margin-left: 50.72464%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 87, ../sass/sections/_main.scss */
+#main #slider .content .information-list li.absolute img {
+  position: absolute;
+}
+/* line 91, ../sass/sections/_main.scss */
+#main #slider .content .information-list li div {
+  height: 85px;
+  float: left;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 25px;
+}
+/* line 97, ../sass/sections/_main.scss */
+#main #slider .content .information-list li div img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+/* line 103, ../sass/sections/_main.scss */
+#main #slider .content .information-list li p {
+  margin-top: 34px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  text-align: left;
+  line-height: normal;
+}
+/* line 115, ../sass/sections/_main.scss */
+#main #usage {
+  min-height: 590px;
+  background-color: #6233ff;
+}
+/* line 119, ../sass/sections/_main.scss */
+#main #usage .content h1 {
+  text-align: left;
+  width: 66.26506%;
+  float: left;
+  margin-left: 8.43373%;
+  margin-right: -100%;
+  font-weight: lighter;
+  margin-top: 45px;
+  color: #fff;
+  font-size: 25px;
+}
+/* line 127, ../sass/sections/_main.scss */
+#main #usage .content .list {
+  width: 83.13253%;
+  float: left;
+  margin-left: 8.43373%;
+  margin-right: -100%;
+}
+/* line 129, ../sass/sections/_main.scss */
+#main #usage .content .list .item {
+  width: 32.25806%;
+  float: left;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#main #usage .content .list .item:nth-child(3n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#main #usage .content .list .item:nth-child(3n + 2) {
+  margin-left: 33.87097%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+#main #usage .content .list .item:nth-child(3n + 3) {
+  margin-left: 67.74194%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 142, ../sass/sections/_main.scss */
+#main #form {
+  background-color: chocolate;
+  height: 400px;
+}
+
+/* line 16, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/style.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/style.scss */
+.content {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4NS43MTQyOSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODUuNzE0MjklIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(85.71429%, rgba(179, 179, 255, 0.25)), color-stop(85.71429%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  -moz-background-size: 8.43373%, 100% 24px;
+  -o-background-size: 8.43373%, 100% 24px;
+  -webkit-background-size: 8.43373%, 100% 24px;
+  background-size: 8.43373%, 100% 24px;
+  -moz-background-origin: content-box, border-box;
+  -o-background-origin: content-box, border-box;
+  -webkit-background-origin: content-box, border-box;
+  background-origin: content-box, border-box;
+  -moz-background-clip: content-box, border-box;
+  -o-background-clip: content-box, border-box;
+  -webkit-background-clip: content-box, border-box;
+  background-clip: content-box, border-box;
+  background-position: left top;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 24, ../sass/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 29, ../sass/style.scss */
+.mate-s {
+  text-align: center;
+  color: #da1a21;
+}
+
+/* line 34, ../sass/style.scss */
+.item {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4NS43MTQyOSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODUuNzE0MjklIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(85.71429%, rgba(179, 179, 255, 0.25)), color-stop(85.71429%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 85.71429%, rgba(0, 0, 0, 0) 85.71429%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  -moz-background-size: 8.43373%, 100% 24px;
+  -o-background-size: 8.43373%, 100% 24px;
+  -webkit-background-size: 8.43373%, 100% 24px;
+  background-size: 8.43373%, 100% 24px;
+  -moz-background-origin: content-box, border-box;
+  -o-background-origin: content-box, border-box;
+  -webkit-background-origin: content-box, border-box;
+  background-origin: content-box, border-box;
+  -moz-background-clip: content-box, border-box;
+  -o-background-clip: content-box, border-box;
+  -webkit-background-clip: content-box, border-box;
+  background-clip: content-box, border-box;
+  background-position: left top;
+}

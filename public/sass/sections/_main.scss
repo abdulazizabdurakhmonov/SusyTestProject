@@ -1,0 +1,148 @@
+#main{
+  #about{
+    height: 595px;
+    background: #1e4155;
+    .content{
+      @include susy-clearfix;
+      .page-title{
+        background: aqua;
+      }
+      h1{
+        @include span(isolate 2 at 5.85 wider);
+        margin-top: 130px;
+        height: 52px;
+        font-size: large;
+        background: yellow;
+      }
+      p{
+        @include span(isolate 6 at 4);
+        background: navy;
+        margin-top: 200px;
+      }
+      .button-wrapper{
+        @include span(isolate 2 at 6 wide);
+        background: #fff;
+        height: 36px;
+        border-radius: 3%;
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 310px;
+      }
+      //p{
+      //  //@include span(3 of 12);
+      //  //@include push(4 of 12);
+      //  //@include full;
+      //  @include span(isolate 3 at 4);
+      //  background: yellow;
+      //  padding: gutter();
+      //}
+      //.p-2{
+      //  @include span(isolate 3 at 7.2 wider);
+      //}
+    }
+  }
+  #slider{
+    background-color: #0e1f4a;
+    height: 445px;
+    .content{
+      h1{
+        font-weight: lighter;
+        @include span(isolate 7 at 2);
+        margin-top: 45px;
+        color:#f2cd35;
+        text-align: left;
+        font-size:25px;
+        .bold{
+          font-weight: 800;
+          color: #f2cd35;
+        }
+      }
+      .information-list{
+        @include span(isolate 10 at 2);
+        margin-top: 100px;
+        li{
+          &.absolute{position: relative;
+            div{
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 90px;
+              width: 85px;
+           img{
+            width: 100%;
+             max-width: 100%;
+             position:relative;
+            }
+            }
+            p{
+              margin-left: 110px;
+            }
+          }
+          @include gallery(5 of 10);
+          margin: gutter();
+          background: #0e1f4a;
+          height: 85px;
+          &.absolute{
+            img{
+              position: absolute;
+            }
+          }
+          div{
+            height: 85px;
+            float: left;
+            border-radius: 100%;
+            overflow: hidden;
+            margin-right:25px;
+            img{
+              max-width: 100%;
+              width: 100%;
+              height: 100%;
+            }
+          }
+          p{
+            margin-top: 34px;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 10px;
+            text-align: left;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+  #usage{
+    min-height: 590px;
+    background-color: #6233ff;
+    .content{
+      h1{
+        text-align: left;
+        @include span(isolate 8 at 2);
+        font-weight: lighter;
+        margin-top: 45px;
+        color:#fff;
+        font-size:25px;
+      }
+      .list{
+        @include span(isolate 10 at 2);
+        .item{
+          @include gallery(3 of 9)
+          /*@include susy-clearfix;
+          .icon{
+            @include span(2 at 4);
+          }
+          .container{
+            @include span(2 at 8);
+          }*/
+        }
+      }
+    }
+  }
+  #form{
+    background-color: chocolate;
+    height: 400px;
+    .content{
+    }
+  }
+}

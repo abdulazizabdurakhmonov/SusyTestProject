@@ -1,0 +1,74 @@
+$nav-height: 65px;
+
+#header {
+  background: white;
+  //position: fixed;
+  width: 100%;
+  height: $nav-height;
+  z-index: 999;
+  .content {
+    //@include span(full);
+    z-index: 100;
+    #text-logo {
+      margin-top: 20px;
+      height: 140px;
+      @include span(2 of 12 first);
+      @include susy-clearfix;
+      text-align: center;
+      img{
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    #header-nav {
+      height: $nav-height;
+      @include span(isolate 7 of 12);
+      @include susy-clearfix;
+      background: #ffffff;
+      text-align: center;
+      .nav-links {
+        padding-top: 27px;
+        li {
+          text-align: center;
+          height: 40px;
+          background: transparent;
+          @include gallery(2 of 10);
+          a {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #d2d4d9;
+            text-decoration: none;
+            background: transparent;
+          }
+        }
+        a:hover{
+          color:black;
+          font-weight: 500;
+        }
+      }
+    }
+    #media{
+      height: $nav-height;
+      background: white;
+      @include span(2 of 12);
+      @include susy-clearfix;
+      .media-links {
+        padding-top: 27px;
+         li{
+            border-radius: 100%;
+            background: yellow;
+            height: 32px;
+            @include gallery(3 of 12);
+              :first-child {background: url("../../../images/insta-mini.png")}
+              :nth-child(2){background: url("../../../images/twit-mini.png")}
+              :nth-child(3){background: url("../../../images/y-tube-mini.png")}
+              :last-child {background: url("../../../images/insta-mini.png")}
+           a{
+             text-align: center;
+             text-decoration: none;
+           }
+        }
+      }
+    }
+  }
+}
